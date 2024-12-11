@@ -1,0 +1,107 @@
+/* Övning 1: Navigationsmeny */
+
+.navbar {
+    background-color: #2c3e50;
+    padding: 10px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-item a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Övning 2: Responsiv Kortlayout */
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 100vh;
+    gap: 3rem;
+
+}
+
+.card {
+    /* Din kod här */
+    height: 10rem;
+    width: 10rem;
+    background-color: #2c3e50;
+}
+
+/* Övning 3: Responsiv Footer */
+
+.footer {
+    /* Din kod här */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    /* Din kod här */
+    flex-basis: 200px;
+}
+
+/* Övning 4: Centrera Element */
+
+.center-container {
+    /* Din kod här */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.center-item {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+/* Övning 5: Prisjämförelsetabell */
+
+.pricing-table {
+    /* Din kod här */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pricing-card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.pricing-card h3 {
+    margin-top: 0;
+}
+
+.pricing-card button {
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+/* Övning 6: Sidebar-layout */
+
+.layout-container {
+    /* Din kod här */
+    display: flex;
+}
+
+.sidebar {
+    background-color: #bdc3c7;
+    padding: 20px;
+}
+
+.main-content {
+    background-color: #ecf0f1;
+    padding: 20px;
+    flex-grow: 1;
+}
